@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4E9AC92-00CE-4C11-9274-9010AC50DCD1}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorSystem.Domain", "BloodDonorSystem.Domain\BloodDonorSystem.Domain.csproj", "{6242C971-881D-4228-B1A2-2876318F4696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorSystem.Application", "BloodDonorSystem.Application\BloodDonorSystem.Application.csproj", "{D4330DB0-F353-4DA8-8853-0E2BE84CE8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorSystem.Infrastructure", "BloodDonorSystem.Infrastructure\BloodDonorSystem.Infrastructure.csproj", "{2088CDE9-B00D-4B3D-A65B-20BD4A9E3E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorSystem.API", "BloodDonorSystem.API\BloodDonorSystem.API.csproj", "{682C379B-D58C-45E4-AA09-41EF66C9C5E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6242C971-881D-4228-B1A2-2876318F4696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6242C971-881D-4228-B1A2-2876318F4696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6242C971-881D-4228-B1A2-2876318F4696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6242C971-881D-4228-B1A2-2876318F4696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4330DB0-F353-4DA8-8853-0E2BE84CE8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4330DB0-F353-4DA8-8853-0E2BE84CE8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4330DB0-F353-4DA8-8853-0E2BE84CE8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4330DB0-F353-4DA8-8853-0E2BE84CE8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2088CDE9-B00D-4B3D-A65B-20BD4A9E3E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2088CDE9-B00D-4B3D-A65B-20BD4A9E3E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2088CDE9-B00D-4B3D-A65B-20BD4A9E3E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2088CDE9-B00D-4B3D-A65B-20BD4A9E3E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682C379B-D58C-45E4-AA09-41EF66C9C5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682C379B-D58C-45E4-AA09-41EF66C9C5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682C379B-D58C-45E4-AA09-41EF66C9C5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682C379B-D58C-45E4-AA09-41EF66C9C5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

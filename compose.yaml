@@ -1,0 +1,22 @@
+﻿services:
+
+  postgres:
+    image: postgres:17
+
+    container_name: blooddonor-postgres
+
+    restart: always
+
+    environment:
+      POSTGRES_DB: BloodDonorSystemDb
+      POSTGRES_USER: blooddonor
+      POSTGRES_PASSWORD: blooddonor123
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - blooddonor_postgres:/var/lib/postgresql/data
+
+volumes:
+  blooddonor_postgres:

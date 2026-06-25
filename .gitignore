@@ -1,0 +1,17 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/# Visual Studio
+.vs/
+
+# Rider / IntelliJ
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.DotSettings.user
+
+# Mac files
+.DS_Store
