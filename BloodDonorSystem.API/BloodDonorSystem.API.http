@@ -1,0 +1,55 @@
+@host = http://localhost:5169
+
+###
+POST {{host}}/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "donor3@test.com",
+  "password": "Password@123",
+  "role": "Donor"
+}
+
+###
+
+# HEALTH CHECK
+
+GET {{host}}/
+Accept: application/json
+
+###
+
+
+# LOGIN
+
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "donor3@test.com",
+  "password": "Password@123"
+}
+
+###
+
+# REFRESH TOKEN
+
+POST {{host}}/api/auth/refresh
+Content-Type: application/json
+
+{
+  "refreshToken": "uYAd9/77E8o6v+hESoUfqtIBpevicqIihh0Z0QzQwvISTS2GImxEryHN6/lO9Oj5p0ig+C9nlOyAdlKf3NyxGg=="
+}
+
+###
+
+# LOGOUT
+
+POST {{host}}/api/auth/logout
+Content-Type: application/json
+
+{
+  "refreshToken": "uYAd9/77E8o6v+hESoUfqtIBpevicqIihh0Z0QzQwvISTS2GImxEryHN6/lO9Oj5p0ig+C9nlOyAdlKf3NyxGg=="
+}
+
+###
